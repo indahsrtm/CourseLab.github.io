@@ -1,0 +1,347 @@
+@import url("root.css");
+
+/* tablet responsive */
+@media (max-width: 1281px) {
+  /* firly style start */
+  header {
+    font-size: 14px;
+  }
+
+  header .head-container {
+    max-width: 1000px;
+    height: 82px;
+  }
+
+  .dropdown-content {
+    font-size: 10px;
+  }
+
+  .logo img {
+    width: 72px;
+    height: 31px;
+  }
+
+  .nav.menu a {
+    margin-right: 16px;
+  }
+  .btn a {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  /* firly style end  */
+
+  /* main style start -ibnu  */
+  .main {
+    padding: 12px 0 12px 0;
+  }
+
+  .top-container {
+    display: inline-block;
+    width: 100%;
+    max-width: 1281px;
+    flex-direction: row-reverse;
+  }
+
+  .top-container .content-left {
+    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .top-container .content-right {
+    padding-top: 24px;
+    text-align: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 92px;
+  }
+
+  .form-group {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .container-img .gambar {
+    top: 4px;
+    width: 50%;
+    align-items: center;
+    position: relative;
+  }
+  /* main style end -ibnu  */
+
+  /*courses section responsive - indah*/
+  .our-courses_list-wrapper {
+    grid-template-columns: auto auto;
+  }
+
+  .our-courses_text-contents h1 {
+    font-size: 30px;
+  }
+
+  .heading h1 {
+    font-size: 36px;
+  }
+
+  /* courses section responsive end*/
+
+  /* fikri start*/
+  .guru {
+    margin-left: 8%;
+  }
+  .guru img {
+    width: 245px;
+  }
+  .tentang {
+    font-size: 10px;
+  }
+  .mentor {
+    font-size: 14px;
+  }
+  /* fikri end */
+
+  /* ibnu style start */
+  footer {
+    padding-top: 24px;
+  }
+
+  footer .container {
+    max-width: 1281px;
+  }
+
+  .company-col {
+    width: 30%;
+  }
+
+  .company-col p {
+    margin-top: 18px;
+    width: 100%;
+  }
+
+  .footer-col {
+    width: 15%;
+  }
+
+  .footer-col ul li {
+    margin-bottom: 12px;
+  }
+
+  .copyright {
+    width: 40%;
+    padding: 18px;
+  }
+
+  footer .copyright-list {
+    width: 30%;
+    padding: 18px 0 18px 60px;
+  }
+  /* ibnu style end */
+}
+
+/* phone responsive */
+
+@media (max-width: 768px) {
+  /* firly style start */
+  header {
+    font-size: 12px;
+  }
+
+  header .head-container {
+    max-width: 460px;
+    height: 50px;
+  }
+
+  /* header .head-row{
+      justify-content: end;
+    } */
+
+  .nav.menu {
+    display: none;
+  }
+
+  .btn {
+    width: 60%;
+    float: none;
+    text-align: end;
+  }
+  .btn a {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.35s ease-out;
+  }
+
+  .dropbtn .fa-bars {
+    color: var(--main-color);
+  }
+
+  .dropdown-content {
+    min-width: 20%;
+    font-size: 10px;
+  }
+
+  .subdropdown-content {
+    font-size: 10px;
+  }
+
+  .dropdown-content a {
+    padding: 1px 8px;
+  }
+
+  .bars {
+    padding: 0 12px;
+    display: block;
+  }
+
+  .bars .dropbtn {
+    border: none;
+    outline: none;
+    margin: 0;
+  }
+  /* firly style end */
+
+  /* main style start -ibnu  */
+  .main {
+    padding: 12px 0 12px 0;
+  }
+
+  .top-container {
+    display: inline-block;
+    width: 100%;
+    max-width: 1281px;
+    flex-direction: row-reverse;
+  }
+
+  .top-container .content-left {
+    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .top-container .content-right {
+    padding-top: 24px;
+    text-align: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .title-container {
+    font-size: 12px;
+    line-height: 140%;
+    margin-bottom: 24px;
+  }
+
+  .title-form {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .form-group {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .txtform {
+    font-size: 12px;
+    padding: 0 12px;
+    width: 172px;
+    height: 50px;
+  }
+
+  .submit {
+    font-size: 12px;
+    width: 92px;
+    height: 50px;
+    left: -4px;
+  }
+
+  .container-img .gambar {
+    top: 4px;
+    width: 90%;
+    align-items: center;
+    position: relative;
+  }
+  /* main style end -ibnu  */
+
+  /*courses section responsive*/
+  .heading p {
+    font-size: 18px;
+  }
+
+  .heading h1 {
+    font-size: 24px;
+  }
+
+  .our-courses_list-wrapper {
+    grid-template-columns: auto;
+  }
+
+  .our-courses_text-contents h1 {
+    font-size: 24px;
+  }
+  /*courses section responsive end*/
+
+  /*fikri start*/
+  .guru {
+    margin-left: 275px;
+  }
+  .guru img {
+    width: 360px;
+  }
+  /*fikri start*/
+
+  /* ibnu style start */
+  footer .container {
+    max-width: 768px;
+  }
+
+  footer img {
+    width: 148px;
+  }
+
+  .company-col {
+    width: 60%;
+    padding: 0 16px;
+    /* background: tomato; */
+  }
+
+  .company-col p {
+    margin-top: 18px;
+    width: 110%;
+  }
+
+  .footer-col {
+    width: 40%;
+    padding: 0 0 0 16px;
+  }
+
+  .footer-col h4 {
+    margin-bottom: 18px;
+    margin-top: 12px;
+  }
+
+  .footer-col ul li {
+    margin-bottom: 12px;
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 24px 0 0 12px;
+  }
+
+  footer .copyright-list {
+    width: 50%;
+    padding: 8px 0 18px 12px;
+  }
+  /* ibnu style end */
+}
